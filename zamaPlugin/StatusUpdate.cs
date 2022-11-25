@@ -53,7 +53,7 @@ namespace zamaPlugin
                         AttributeName = "cr651_defaultoption1",
                         Operator = ConditionOperator.Equal
                     };
-                    
+
 
                     condition1.Values.Add(true);
                     FilterExpression filter1 = new FilterExpression();
@@ -62,7 +62,7 @@ namespace zamaPlugin
                     query.ColumnSet.AddColumns("cr651_defaultoption1");
                     query.Criteria.AddFilter(filter1);
                     EntityCollection defaultRecs = service.RetrieveMultiple(query);
-                    
+
                     if (defaultOption)
                     {
                         //if default selected to true
@@ -73,7 +73,6 @@ namespace zamaPlugin
                             service.Update(c);
                         }
 
-                        status["cr651_defaultoption1"] = true;
 
                     }
 
