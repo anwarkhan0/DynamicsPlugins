@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zamaPlugin", "zamaPlugin\zamaPlugin.csproj", "{32AF5F16-ED80-4DBA-9624-27309EECE035}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseCustomWF", "CourseCustomWF\CourseCustomWF.csproj", "{5AF2D422-63C2-40BF-9E5E-92344A87D149}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountActivateDActivate", "AccountActivateDActivate\AccountActivateDActivate.csproj", "{A0B616B2-FE58-4DB3-8EA0-75A8521B174C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32AF5F16-ED80-4DBA-9624-27309EECE035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32AF5F16-ED80-4DBA-9624-27309EECE035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32AF5F16-ED80-4DBA-9624-27309EECE035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32AF5F16-ED80-4DBA-9624-27309EECE035}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AF2D422-63C2-40BF-9E5E-92344A87D149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF2D422-63C2-40BF-9E5E-92344A87D149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AF2D422-63C2-40BF-9E5E-92344A87D149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AF2D422-63C2-40BF-9E5E-92344A87D149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0B616B2-FE58-4DB3-8EA0-75A8521B174C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0B616B2-FE58-4DB3-8EA0-75A8521B174C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0B616B2-FE58-4DB3-8EA0-75A8521B174C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0B616B2-FE58-4DB3-8EA0-75A8521B174C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2997289F-ABD5-4AE4-B1D8-8D003BA761B5}
+	EndGlobalSection
+EndGlobal
